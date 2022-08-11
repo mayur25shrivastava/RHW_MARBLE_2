@@ -783,7 +783,9 @@ footer .copyright{
 
 
 
-
+.crds2{
+    width: 20vw;
+}
 
 
 
@@ -871,11 +873,39 @@ footer .copyright{
         width: 150px;
     }
 
+    
+
+
+
+    /* product page  */
+
+
     #product1 .pro-container{
         justify-content: center;
     }
     #product1 .pro{
         margin: 15px;
+    }
+
+    .pro-container {
+        padding: 13px 0px;
+    }
+
+
+     /* about page */
+     #about-head{
+        flex-direction: column;
+    }
+    #about-head img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div{
+        width: 100%;
+        padding-left: 0px;
+    }
+    #about-head .video{
+        width: 100%;
     }
 
     /* contact page  */
@@ -907,6 +937,10 @@ footer .copyright{
         width: 100%;
         margin-bottom: 30px;
     }
+        
+.crds2{
+    width: 60vw;
+}
 }
 
 
@@ -969,6 +1003,11 @@ footer .copyright{
     .box span{
         height: 150px;
         width: 150px;
+    }
+
+    
+    .pro-container {
+        padding: 13px 0px;
     }
 
     #prodetails{
